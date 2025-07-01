@@ -1,8 +1,14 @@
 import express from "express";
+import cors from "cors";
+import connectDB from "./config/db.js";
+import authRoutes from "./routes/authRoutes.js";
+
 const app = express();
+app.use(cors());
+app.use(express.json());
 
-app.get("/", (req, res) => {
-  return res.status(200).json({ message: "Hello this is server" });
-});
+connectDB();
+app.use("/api/auth", authRoutes);
 
-app.listen(3000);
+const PORT = 5000;
+app.listen(PORT, () => console.log(`🚀 Server running on http://localhost:${PORT}`));

@@ -1,6 +1,6 @@
 {
-  "name": "create-mern-samar-app",
-  "version": "1.0.0",
+  "name": "samar-kit",
+  "version": "1.0.1",
   "main": "bin/index.js",
   "bin": {
     "create-mern-samar-app": "./bin/index.js"

@@ -1,4 +1,4 @@
-# 🚀 create-mern-samar-app
+# 🚀 samar-kit
 
 A CLI tool to instantly scaffold a **Production-Ready MERN Stack Application** with:
 
@@ -27,5 +27,5 @@ A CLI tool to instantly scaffold a **Production-Ready MERN Stack Application** w
 No need to install globally. Use `npx`:
 
 ```bash
-npx create-mern-samar-app
+npx samar-kit
 ```
