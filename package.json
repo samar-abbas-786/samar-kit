@@ -1,0 +1,19 @@
+{
+  "name": "create-mern-stack-app",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "bin": {
+    "create-mern-stack-app": "./bin/index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0"
+  },
+  "keywords": [
+    "mern",
+    "vite",
+    "tailwind",
+    "express",
+    "cli"
+  ],
+  "license": "MIT"
+}
