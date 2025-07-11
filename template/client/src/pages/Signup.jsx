@@ -22,7 +22,7 @@ export default function Signup() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black flex items-center justify-center px-4">
-      <div className="w-full max-w-md bg-zinc-900 rounded-2xl shadow-2xl p-8 text-white border border-purple-400 animate-fade-in-up">
+      <div className="w-full max-w-md bg-gray-800 rounded-2xl shadow-2xl p-8 text-white border border-purple-400 animate-fade-in-up">
         <h2 className="text-3xl font-extrabold text-purple-400 mb-6 text-center drop-shadow">
           Create an Account
         </h2>

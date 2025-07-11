@@ -22,4 +22,14 @@ execSync("npm install", { cwd: path.join(root, "client"), stdio: "inherit" });
 execSync("npm install", { cwd: path.join(root, "server"), stdio: "inherit" });
 
 console.log("✅ Project ready!");
-console.log(`\n👉 Run:\ncd ${targetDir}\nnpm run dev\n`);
+console.log(`
+👉 To start the project:
+
+🔹 Server:
+cd ${targetDir}/server
+npm start
+
+🔹 Client:
+cd ${targetDir}/client
+npm run dev
+`);

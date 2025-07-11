@@ -1,31 +1,35 @@
 # 🚀 samar-kit
 
-A CLI tool to instantly scaffold a **Production-Ready MERN Stack Application** with:
+**samar-kit** is a powerful CLI tool to **instantly scaffold a full-fledged MERN Stack Application** with:
 
-- ✅ React (Vite) + Tailwind CSS (Client)
-- ✅ Express.js + MongoDB (Server)
-- ✅ Structured folder architecture
-- ✅ Auto-installed dependencies
-- ✅ Beautiful UI landing page
+- ⚛️ React + Vite + Tailwind CSS (Client)
+- 🌐 Node.js + Express + MongoDB (Server)
+- 📁 Clean, scalable folder architecture
+- 🛠️ Prebuilt authentication system (Sign Up / Login / Profile)
+- 🎨 Beautiful dark-themed landing UI with animations
+- 🔌 Automatic MongoDB connection (with a default URI — easily configurable)
 
-> Built with ❤️ by [Samar Abbas](https://www.linkedin.com/in/samar-abbas-a1ab4625a)
-
----
-
-## 📦 Features
-
-- ⚡ Instant setup for full-stack MERN apps
-- 💨 Tailwind CSS preconfigured with Vite
-- 🧩 Modular backend with `controllers`, `routes`, and `models`
-- 🔄 Automatic dependency installation
-- 🧑‍💻 Perfect starting point for hackathons, MVPs, and production projects
+> Created with ❤️ by [Samar Abbas](https://www.linkedin.com/in/samar-abbas-a1ab4625a)
 
 ---
 
-## 📥 Installation
+## ✨ Features
 
-No need to install globally. Use `npx`:
+- ✅ Fully structured **client** & **server** directories
+- ✅ React app bootstrapped with **Vite + Tailwind CSS**
+- ✅ Express backend with **controllers**, **routes**, and **models**
+- ✅ JWT-based authentication with hashed passwords
+- ✅ Smooth, dark-themed UI with Tailwind animations
+- ✅ Automatic dependency installation (client + server)
+- ✅ Automatic MongoDB connection with default URI (can be customized via `.env`)
+- ✅ Ideal for MVPs, hackathons, freelance projects, and scalable apps
+
+---
+
+## 📦 Installation
+
+To scaffold a new MERN app, simply run:
 
 ```bash
-npx samar-kit
+npx samar-kit my-app
 ```

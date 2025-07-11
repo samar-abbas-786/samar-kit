@@ -44,7 +44,7 @@ export default function Home() {
         <p className="mt-4">
           Try it now:
           <code className="block bg-gray-900 mt-2 p-2 rounded text-purple-300 text-sm font-mono">
-            npx create-mern-stack-app my-app
+            npx samar-kit my-app
           </code>
         </p>
       </div>
